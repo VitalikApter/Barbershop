@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 40px 31px
+}
+
+.navigation{
+    list-style: none;
+    @media screen and (max-width:767px){
+      display: none;  
+    }
+}
+
+.menu-button{
+    margin-left: auto;
+    background-color: #ffffff;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+}
+
+.header-logo{
+    background-color: #ffffff;
+}
