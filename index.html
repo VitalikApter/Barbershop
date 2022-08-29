@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <section class="header">
+    <!-- <section class="header">
         <div class="container header-container">
     <a href="./index.html" class="logo">
     <svg class="header-logo" width="66px" height="56px"><use href="./images/icons.svg#icon-Logo"></use></svg>
@@ -36,6 +36,7 @@
   <a href="" class="navigation__link link">Контакты</a>  
 </li>
 </div>
+<button type="button" class="online-button">онлайн-запись</button>
 
 
 <button type="button" class="menu" data-menu-open>
@@ -69,7 +70,7 @@
     </button>
 <a href="" class="mob-tel link">+38 044 111 1 1 11</a>
 
-<a href="" class="mob-menu__link link">онлайн-запись</a>
+<button type="button" class="online-button">онлайн-запись</button>
  
     <div class="mob-menu-social">
         <ul class="mob-menu-social__list list">
@@ -86,6 +87,48 @@
 </div>
 </div>
 </div>
+    </section> -->
+
+    <section class="about">
+        <div class="container about-container">
+            <div class="about-img-section">
+                <ul class="about-img-section__list">
+                    <li class="about-img-section__item">
+<picture>
+    <source srcset="./images/aboutBeardDesk@1x.jpg 1x,
+                    ./images/aboutBeardDesk@2x.jpg 2x" media="(min-width:1200px)">
+
+    <source srcset="./images/aboutBeardTab@1x.jpg 1x,
+                   ./images/aboutBeardTab@2x.jpg 2x" media="(min-width:768px)">
+    <img class="about-image" src="./images/aboutBeard.jpg" alt="мужик с бородой">
+</picture>
+                </li>
+                
+                    <li class="about-img-section__item">
+<picture>
+    <source srcset="./images/aboutHeadDesk@1x.jpg 1x,
+                    ./images/aboutHeadDesk@1x.jpg 2x" media="(min-width:1200px)">
+    <source srcset="./images/aboutHeadTab@1x.jpg 1x,
+                                   ./images/aboutHeadTab@2x.jpg 2x" media="(min-width:768px)">
+    <img class="about-image" src="./images/aboutHead.jpg" alt="мужик стрижется">
+</picture>
+                    </li>
+
+                </ul>
+                
+                
+            </div>
+            <div class="about-right">
+            <h3 class="about__sub-title">О НАС</h3>
+        <h2 class="about__title">Лучший Барбершоп твоего города</h2>
+        <p class="about__text-first">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+        <p class="about__text-second">Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь
+        в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
+        Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+        
+        <button type="button" class="about__online-button">онлайн-запись</button>
+        </div>
+        </div>
     </section>
 
     <script src="./js/mob-menu.js"></script>
